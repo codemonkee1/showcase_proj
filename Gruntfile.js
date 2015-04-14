@@ -10,8 +10,8 @@ module.exports = function(grunt) {
   grunt.registerTask("default", "start a web server", function(){
 
   var
-	 webServer = require("./web-server"),
-   webServerConfig = grunt.config("webServer");
+  webServer = require("./web-server"),
+  webServerConfig = grunt.config("webServer");
 
   this.async();
 
